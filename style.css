@@ -2487,6 +2487,20 @@ select.mobile-device {
 @media only screen and (max-width: 786px) {
     img.popcorn{
         margin-left: 20%;
+    }
+
+    /* Remove some images on Mobiles */
+    img[src="uploads/customer segmentation.jpg"]{
+        display:none;
+    }
+    img[src="uploads/ab test marketing campaign.png"]{
+        display:none;
+    }
+    img[src="uploads/bank marketing.jpg"]{
+        display:none;
+    }
+    img[src="uploads/UK retailer.jpg"]{
+        display:none;
     } 
 }
 
@@ -2503,7 +2517,6 @@ select.mobile-device {
 #readings-amazin {
     scroll-margin-top: 100px;
 }
-
 #uk_e-commerce{
     scroll-margin-top: 100px;
 }
