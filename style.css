@@ -2531,3 +2531,6 @@ select.mobile-device {
 #fb_web_scraping{
     scroll-margin-top: 100px;
 }
+#blog{
+    scroll-margin-top: 200px;
+}
