@@ -2490,18 +2490,24 @@ select.mobile-device {
     }
 
     /* Remove some images on Mobiles */
-    img[src="uploads/customer segmentation.jpg"]{
+    .page_index img[src="uploads/customer segmentation.jpg"]{
         display:none;
     }
-    img[src="uploads/ab test marketing campaign.png"]{
+    .page_index img[src="uploads/ab test marketing campaign.png"]{
         display:none;
     }
-    img[src="uploads/bank marketing.jpg"]{
+    .page_index img[src="uploads/bank marketing.jpg"]{
         display:none;
     }
-    img[src="uploads/UK retailer.jpg"]{
+    .page_index img[src="uploads/UK retailer.jpg"]{
         display:none;
     } 
+
+    /* Change the images structure on Portfolio page{ */
+    .page_portfolio img{
+        margin-top: -10px !important;
+        margin-bottom: 10px !important;
+    }
 }
 
 /* Approach 1: to anchor */
