@@ -2468,3 +2468,66 @@ select.mobile-device {
     border-color: rgba(255, 255, 255, 0.6);
     color: rgba(255, 255, 255, 0.6);
 }
+
+/* .gallery-single img{
+    margin-left: 10px;
+} */
+
+/* img.img-fluid{
+    margin-left: 13%;
+} */
+
+/* Desktop */
+@media only screen and (min-width: 786px) {
+    img.popcorn{
+        margin-left: 13%;
+    } 
+}
+/* Mobile */
+@media only screen and (max-width: 786px) {
+    img.popcorn{
+        margin-left: 20%;
+    } 
+}
+
+/* Approach 1: to anchor */
+#adjust_anchor{
+    color: transparent;
+    margin-top: -30px;
+}
+
+/* Approach 2: to anchor */
+#popcorn {
+    scroll-margin-top: 100px;
+}
+#readings-amazin {
+    scroll-margin-top: 100px;
+}
+
+#uk_e-commerce{
+    scroll-margin-top: 100px;
+}
+#customer_segmentation{
+    scroll-margin-top: 100px;
+}
+#sale_prediction{
+    scroll-margin-top: 100px;
+}
+#a_b_test{
+    scroll-margin-top: 100px;
+}
+#house_price{
+    scroll-margin-top: 100px;
+}
+#bank_subscription{
+    scroll-margin-top: 100px;
+}
+#movie_sentiment{
+    scroll-margin-top: 100px;
+}
+#tomotoes_web_scraping{
+    scroll-margin-top: 100px;
+}
+#fb_web_scraping{
+    scroll-margin-top: 100px;
+}
