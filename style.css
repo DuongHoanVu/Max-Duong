@@ -2553,3 +2553,20 @@ select.mobile-device {
 #blog{
     scroll-margin-top: 200px;
 }
+
+img.data_science_journey{
+    width:90%;
+    display: block;
+    margin: auto;
+}
+
+/* Reference section */
+#reference a p{
+    color: lightskyblue !important;
+    margin-left: 20px;
+}
+
+.reference_link p{
+    color: lightskyblue !important;
+    margin-left: 20px !important;
+}
