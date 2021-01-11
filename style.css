@@ -2551,7 +2551,10 @@ select.mobile-device {
     scroll-margin-top: 100px;
 }
 #blog{
-    scroll-margin-top: 200px;
+    scroll-margin-top: 100px;
+}
+#about{
+    scroll-margin-top: 100px;
 }
 
 img.data_science_journey{
@@ -2577,4 +2580,17 @@ p.quote{
 }
 p.author{
     text-align: right;
+}
+
+.learn_more{
+    float: right;    
+}
+
+.skill_list{
+    color: rgb(34, 32, 32); 
+    font-weight: 400;
+}
+.inline_2paragraph p {
+    display: inline-block;
+    vertical-align: top;
 }
