@@ -2570,3 +2570,11 @@ img.data_science_journey{
     color: lightskyblue !important;
     margin-left: 20px !important;
 }
+
+p.quote{
+    text-align: right;
+    margin-right: 15px;
+}
+p.author{
+    text-align: right;
+}
