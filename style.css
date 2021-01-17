@@ -2510,6 +2510,16 @@ select.mobile-device {
     }
 }
 
+/* Desktop */
+@media only screen and (min-width: 786px) {
+    .blog_img_index{
+        width: 100%;
+        height: 210px;
+    }
+}
+
+
+
 /* Approach 1: to anchor */
 #adjust_anchor{
     color: transparent;
@@ -2576,10 +2586,11 @@ img.data_science_journey{
 
 p.quote{
     text-align: right;
-    margin-right: 15px;
+    margin-right: 1%;
 }
 p.author{
     text-align: right;
+    margin-right: 1%;
 }
 
 .learn_more{
